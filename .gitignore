@@ -1,0 +1,29 @@
+# 仮想環境
+venv/
+myenv/
+env/
+
+# Python キャッシュファイル
+__pycache__/
+*.py[cod]
+
+# ログファイル
+*.log
+
+# データベースファイル
+db.sqlite3
+
+# 環境変数
+.env
+
+# IDE 設定ファイル
+.vscode/
+.idea/
+
+# ビルド & 配布関連
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook チェックポイント
+.ipynb_checkpoints/
