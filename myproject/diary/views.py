@@ -27,3 +27,4 @@ class PageCreateView(View):
 
 
 index = IndexView.as_view()
+page_create = PageCreateView.as_view()

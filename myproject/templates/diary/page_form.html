@@ -7,7 +7,7 @@
   </head>
   <body>
     <h2>日記を書く</h2>
-    <form action="POST">
+    <form method="POST" action="{% url 'diary:page_create' %}">
       {% csrf_token %} {{ form.as_p }}
       <button type="submit">保存</button>
     </form>
